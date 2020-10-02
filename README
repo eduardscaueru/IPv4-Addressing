@@ -1,0 +1,11 @@
+In principiu aproape fiecare task se bazeaza pe functia de afisare ca ip fie in baza 10, 8 sau 16.
+In main se realizeaza declararea variabilelor si executarea task-urilor.
+Task_0 consta doar in afisarea ip in baza 10.
+Task_1 se bazeaza pe acelasi lucru insa se foloseste o functie pentru a converti masca intr-un numar zecimal.
+Task_2 foloseste cele 2 functii de afisare in baza 8 si respectiv baza 16.
+Task_3 reprezinta adresa de retea a lui IP_1 care se obtine facand SI-logic intre IP_1 si masca 2 ca numar in baza 10.
+Task_4 reprezinta adresa de broadcast a lui IP_1 care se obtine facand SAU-logic intre IP_1 si complementul mastii 2 ca numar in baza 10.
+Task_5 este oarecum Task_3 facut de 2 ori si verifica daca cele 2 adrese de retea sunt egale sau nu.
+In Task_6 este inclus si Task_7 pentru a evita folosirea variabilelor globale sau a altor functii pentru a retine pozitia primului bit de 1 care apare dupa un 0. Task_7 se face prin parcurgere bitilor de dupa "poz_bit" si schimbarea acestora in 0 pentru a obtine o masca corecta. Verificarea se face cu ajutorul unei variabile "ok" care se schimba atunci cand algoritmul detecteaza un bit de 1 dupa intalnirea valorii 0.
+Task_8 reprezinta afisarea ip-ului in binar cu ajutorul unui "for" care parcurge toti bitii si verifica valoarea acestora.
+Task_9 este asemanator cu Task_5 insa se verifica acest lucru de mai multe ori.
